@@ -1,0 +1,20 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,0.5,6.00,USD,Hosted Zones (1)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,16147.2,193766.40,USD,Data transfer out to internet (300000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Standard,0,2276.2,27314.40,USD,S3 Standard storage (100000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,74.7,896.40,USD,Number of NAT Gateways (2)
+"My Estimate,US East (N. Virginia),Web servers And App Servers,Amazon EC2,0,769.7,9236.40,USD,""Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (100 GB), Instance type (t3.large)"""
+"My Estimate,US East (N. Virginia),DB servers,Amazon EC2,0,997.32,11967.84,USD,""Operating system (Linux), Quantity (3), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (200 GB), Instance type (i3.2xlarge)"""
+
+
+
+Acknowledgement
+* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.
+
+
+Brief Changed:
+Due to user and activities increased, the media data transfer out of CloudFront increased and we need more servers to handle the work load.
+- Add more DB server for read replica.
+- Increase CloudFront data transfer out internet.
+- Increase web servers and app servers to 16 instances.
